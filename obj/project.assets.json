@@ -1923,6 +1923,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Aspose.Cells >= 24.5.0",
+      "Microsoft.AspNet.WebApi.Cors' >= 5.3.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.5",
       "Microsoft.AspNetCore.OpenApi >= 8.0.3",
       "Microsoft.EntityFrameworkCore >= 8.0.2",
@@ -1977,6 +1978,10 @@
             "target": "Package",
             "version": "[24.5.0, )"
           },
+          "Microsoft.AspNet.WebApi.Cors'": {
+            "target": "Package",
+            "version": "[5.3.0, )"
+          },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
             "version": "[8.0.5, )"
@@ -2024,5 +2029,16 @@
         "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.AspNet.WebApi.Cors'. No packages exist with this id in source(s): nuget.org",
+      "libraryId": "Microsoft.AspNet.WebApi.Cors'",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

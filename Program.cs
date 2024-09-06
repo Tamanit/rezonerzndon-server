@@ -1,5 +1,10 @@
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(p => p.AddPolicy("corsapp", builder =>
+{
+    builder.WithOrigins("https://rezone-random.ru/").AllowAnyMethod().AllowAnyHeader();
+}));
+
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -14,6 +19,6 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.UseCors();
+app.UseCors("corsapp");
 
 app.Run();

@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "Y7NvDp2pdBM=",
-  "success": false,
+  "dgSpecHash": "CRaLkBi7yrQ=",
+  "success": true,
   "projectFilePath": "/home/tamanit/Projects/ReZoneRandomize/api/api.csproj",
   "expectedPackageFiles": [
     "/home/tamanit/.nuget/packages/aspose.cells/24.5.0/aspose.cells.24.5.0.nupkg.sha512",
@@ -44,15 +44,5 @@
     "/home/tamanit/.nuget/packages/system.security.cryptography.pkcs/6.0.3/system.security.cryptography.pkcs.6.0.3.nupkg.sha512",
     "/home/tamanit/.nuget/packages/system.text.encoding.codepages/4.7.0/system.text.encoding.codepages.4.7.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Microsoft.AspNet.WebApi.Cors'. No packages exist with this id in source(s): nuget.org",
-      "libraryId": "Microsoft.AspNet.WebApi.Cors'",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }
